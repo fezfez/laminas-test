@@ -5,6 +5,7 @@
  * @copyright https://github.com/laminas/laminas-test/blob/master/COPYRIGHT.md
  * @license   https://github.com/laminas/laminas-test/blob/master/LICENSE.md New BSD License
  */
+
 namespace LaminasTest\Test\PHPUnit\Controller;
 
 use Laminas\Router\RouteMatch;

@@ -2,6 +2,8 @@
 
 namespace Laminas\Test\PHPUnit;
 
+use function method_exists;
+
 /**
  * @internal
  */

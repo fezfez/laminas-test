@@ -2,33 +2,35 @@
 
 namespace Laminas\Test\PHPUnit;
 
+use function method_exists;
+
 /**
  * @internal
  */
 trait TestCaseTypeHintTrait
 {
-    protected function setUp() : void
+    protected function setUp(): void
     {
         if (method_exists($this, 'setUpCompat')) {
             $this->setUpCompat();
         }
     }
 
-    protected function tearDown() : void
+    protected function tearDown(): void
     {
         if (method_exists($this, 'tearDownCompat')) {
             $this->tearDownCompat();
         }
     }
 
-    public static function setUpBeforeClass() : void
+    public static function setUpBeforeClass(): void
     {
         if (method_exists(static::class, 'setUpBeforeClassCompat')) {
             static::setUpBeforeClassCompat();
         }
     }
 
-    public static function tearDownAfterClass() : void
+    public static function tearDownAfterClass(): void
     {
         if (method_exists(static::class, 'tearDownAfterClassCompat')) {
             static::tearDownAfterClassCompat();

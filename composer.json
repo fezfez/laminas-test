@@ -21,7 +21,7 @@
     "extra": {
     },
     "require": {
-        "php": "^5.6 || ^7.0",
+        "php": "^7.3 || ~8.0.0",
         "laminas/laminas-console": "^2.6",
         "laminas/laminas-dom": "^2.6",
         "laminas/laminas-eventmanager": "^2.6.2 || ^3.0",
@@ -32,10 +32,10 @@
         "laminas/laminas-uri": "^2.5",
         "laminas/laminas-view": "^2.6.3",
         "laminas/laminas-zendframework-bridge": "^1.0",
-        "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0"
+        "phpunit/phpunit": "^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0"
     },
     "require-dev": {
-        "laminas/laminas-coding-standard": "~1.0.0",
+        "laminas/laminas-coding-standard": "~2.1.0",
         "laminas/laminas-i18n": "^2.6",
         "laminas/laminas-log": "^2.7.1",
         "laminas/laminas-modulemanager": "^2.7.1",
